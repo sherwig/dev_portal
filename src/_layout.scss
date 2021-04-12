@@ -5,7 +5,7 @@
   // grid-template-areas: "header header header header" "main . . main" "footer footer footer footer";
 
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: "header header" "main main" "footer footer";
+  grid-template-areas: "header header" "col1 col2";
 }
 
 header {
@@ -16,10 +16,10 @@ main {
   grid-area: main;
 }
 
-aside {
-  grid-area: aside;
+.col1 {
+  grid-area: col1;
 }
 
-footer {
-  grid-area: footer;
+.col2 {
+  grid-area: col2;
 }

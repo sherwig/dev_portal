@@ -26,13 +26,13 @@ h1 {
   //end &:hover
 }
 
-header {
-  grid-area: header;
-}
-
-main {
-  grid-area: main;
-}
+// header {
+//   // grid-area: header;
+// }
+//
+// main {
+//   // grid-area: main;
+// }
 
 .image1 {
   height: 20%;
@@ -42,7 +42,7 @@ main {
   background-size: 80% auto;
   position: relative;
   margin-top: 8%;
-  grid-area: main;
+  // grid-area: main;
 }
 //end h1
 
