@@ -1,10 +1,11 @@
 // $bg: rgba(255,165,0,0.25);
-$bg: #dbf6e9;
+$bg: #f4f9f9;
 $header: rgba(0,0,0,1.0);
 $header-hover: rgba(255,165,0,1);
-$left-color: #ffc93c;
-$right-color: #9ddfd3;
-$container-color: #31326f;
+$left-color: #ccf2f4;
+$right-color: #a4ebf3;
+$container-color: #aaaaaa;
+
 // color pallette: https://colorhunt.co/palette/264572
 $padding: 10px;
 $border: 3px;
@@ -19,29 +20,78 @@ h1 {
   padding: $padding;
   text-align: center;
 
-  &:hover {
-    color: $header-hover;
-    border: $border solid $header-hover;
-  }
+  // &:hover {
+  //   color: $header-hover;
+  //   border: $border solid $header-hover;
+  // }
   //end &:hover
 }
 
-// header {
-//   // grid-area: header;
-// }
-//
-// main {
-//   // grid-area: main;
-// }
+.col1,
+.col2,
+.col3,
+.col4,
+.col5,
+.col6 {
+  background-color: $left-color;
+}
+
+#title1 {
+  text-align: center;
+  font-size: 2em;
+}
+
+#paragraph1 {
+  // top: -2%;
+  text-align: center;
+  font-size: 1em;
+}
 
 .image1 {
-  height: 20%;
+  height: 100%;
   background-image: url("../dist/img/commitment.png");
-  // background-position: center;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: 80% auto;
   position: relative;
-  margin-top: 8%;
+  background-color: $left-color;
+  // margin-top: 8%;
+  // grid-area: main;
+}
+
+.image2 {
+  height: 100%;
+  background-image: url("../dist/img/bash-me.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  position: relative;
+  background-color: $left-color;
+  // margin-top: 8%;
+  // grid-area: main;
+}
+
+.image3 {
+  height: 100%;
+  background-image: url("../dist/img/Exquisite.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  position: relative;
+  background-color: $left-color;
+  // margin-top: 8%;
+  // grid-area: main;
+}
+
+.image4 {
+  height: 100%;
+  background-image: url("../dist/img/Pow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 80% auto;
+  position: relative;
+  background-color: $left-color;
+  // margin-top: 8%;
   // grid-area: main;
 }
 //end h1
