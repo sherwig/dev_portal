@@ -9,9 +9,6 @@ $container-color: #aaaaaa;
 $highlight: #5bc0eb;
 $darkhighlight: #fde74c;
 
-// @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
-// @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto+Slab&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR&family=Roboto+Condensed&family=Roboto+Slab&display=swap');
 
 // color pallette: https://colorhunt.co/palette/264572
@@ -24,12 +21,14 @@ body {
 
 h1 {
   color: $header;
-  font-size: 3em;
+  font-size: 3.5em;
   padding: $padding;
   text-align: center;
   text-decoration: none;
   font-family: 'Roboto Condensed', sans-serif;
 }
+
+//Attempt at cool heading
 
 // .cyberText {
 //   $random-text: 'Sam Herwigs Web Dev Homepage';
@@ -315,51 +314,3 @@ ul {
   // margin-top: 8%;
   // grid-area: main;
 }
-//end h1
-
-// .row1 {
-//   display: flex;
-//   // justify-content: space-between;
-//   margin: 0 auto;
-//   padding: 1em;
-//   width: 80%;
-//
-//   .left {
-//     // background-color: $left-color;
-//     // height: 100%;
-//     // width: 48%;
-//
-//     .image1 {
-//       height: 20%;
-//       background-image: url("../dist/img/commitment.png");
-//       // background-position: center;
-//       background-repeat: no-repeat;
-//       background-size: 80% auto;
-//       position: relative;
-//       margin-top: 8%;
-//     }
-//
-//     #title1 {
-//       font-size: 2em;
-//       left: 30%;
-//       right: 30%;
-//       position: relative;
-//
-//     }
-//
-//     #paragraph1 {
-//       font-size: 1.2em;
-//       left: 10%;
-//       right: 30%;
-//       position: relative;
-//     }
-//   }
-//
-//   .right {
-//     background-color: $right-color;
-//     height: 100%;
-//     position: relative;
-//     width: 48%;
-//   }
-//
-// }
