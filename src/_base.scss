@@ -228,19 +228,19 @@ p {
   background-color: $right-color;
 }
 
-.Github {
-  height: 100%;
-  background-image: url("../dist/img/Github.png");
-  background-position: right;
-  margin-top: -25%;
-  margin-right: 2%;
-
-  background-repeat: no-repeat;
-  background-size: 10%, auto;
-  // position: fixed;
-  display: block;
-  background-color: $right-color;
-}
+// .Github {
+//   height: 100%;
+//   background-image: url("../dist/img/Github.png");
+//   background-position: right;
+//   margin-top: -25%;
+//   margin-right: 2%;
+//
+//   background-repeat: no-repeat;
+//   background-size: 10%, auto;
+//   // position: fixed;
+//   display: block;
+//   background-color: $right-color;
+// }
 
 .list1,
 .list2,
@@ -256,61 +256,39 @@ ul {
   text-align: left;
 }
 
-// ul {
-//   text-align: center;
-//   list-style: inside;
-//   // display: inline-block;
-// }
-//
-// li {
-//   display: inline-block;
-// }
-
-.image1 {
-  height: 100%;
-  background-image: url("../dist/img/commitment.png");
-  background-position: center;
-  background-repeat: no-repeat;
+#image1 {
+  height: 50px;
+  width: 50px;
+  background-image: url("../dist/img/GitHub.png");
+  background-position: left;
+  // background-repeat: no-repeat;
   background-size: 100% auto;
   position: relative;
-  // padding: 5%;
-  // background-color: $left-color;
-  // margin-top: 8%;
-  // grid-area: main;
+  left: 90%;
+  // bottom: 5%;
+  display: block;
 }
 
-.image2 {
-  height: 100%;
-  background-image: url("../dist/img/bash-me.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 80% auto;
-  position: relative;
-  // background-color: $left-color;
-  // margin-top: 8%;
-  // grid-area: main;
-}
+// #github {
+//   .image1 {
+//     height: 100%;
+//     // width: 100%;
+//     background-image: url("../dist/img/GitHub.png");
+//     background-position: right;
+//     // background-repeat: no-repeat;
+//     background-size: 100% auto;
+//     position: absolute;
+//   }
+// }
 
-.image3 {
-  height: 100%;
-  background-image: url("../dist/img/Exquisite.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 80% auto;
-  position: relative;
-  // background-color: $left-color;
-  // margin-top: 8%;
-  // grid-area: main;
-}
-
-.image4 {
-  height: 100%;
-  background-image: url("../dist/img/Pow.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 80% auto;
-  position: relative;
-  // background-color: $left-color;
-  // margin-top: 8%;
-  // grid-area: main;
-}
+// .image1 {
+//   height: 100%;
+//   background-image: url("../dist/img/GitHub.png");
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background-size: 100% auto;
+//   position: relative;
+//   // padding: 5%;
+//   // background-color: $left-color;
+//   // margin-top: 8%;
+// }
