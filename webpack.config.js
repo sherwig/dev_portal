@@ -40,8 +40,6 @@ module.exports = {
         test: /\.(png|jpg)$/,
         use: "url-loader",
       }
-
-
     ],
   },
 };
