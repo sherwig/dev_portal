@@ -9,38 +9,39 @@
 }
 
 $layout-Margin: 10%;
+$margin-top: 5%;
 
 .col1 {
   grid-area: col1;
   // position: relative;
-  margin: $layout-Margin;
+  margin: $margin-top $layout-Margin $layout-Margin;
   // padding: 2%;
   // bottom: 4%;
 }
 
 .col2 {
   grid-area: col2;
-  margin: $layout-Margin;
+  margin: $margin-top $layout-Margin $layout-Margin;
 }
 
 .col3 {
   grid-area: col3;
-  margin: $layout-Margin;
+  margin: $margin-top $layout-Margin $layout-Margin;
 }
 
 .col4 {
   grid-area: col4;
-  margin: $layout-Margin;
+  margin: $margin-top $layout-Margin $layout-Margin;
 }
 
 .col5 {
   grid-area: col5;
-  margin: $layout-Margin;
+  margin: $margin-top $layout-Margin $layout-Margin;
 }
 
 .col6 {
   grid-area: col6;
-  margin: $layout-Margin;
+  margin: $margin-top $layout-Margin $layout-Margin;
 }
 
 // .secondary {
