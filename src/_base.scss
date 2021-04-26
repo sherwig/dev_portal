@@ -121,6 +121,9 @@ p {
 
       &:hover {
         transform: translate(-30px, -30px);
+        // transform: cubic-bezier(0.1, 0.7, 1.0, 0.1);
+        // transition-timing-function: cubic-bezier(.12,.84,.74,1.03);
+
         border-color: $highlight;
 
         .card-display {
