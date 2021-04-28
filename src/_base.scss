@@ -117,12 +117,10 @@ p {
       text-align: center;
       color: black;
       display: block;
-      transition: 0.5s ease;
+      transition: all 0.5s cubic-bezier(.61,.12,.72,.88);
 
       &:hover {
         transform: translate(-30px, -30px);
-        // transform: cubic-bezier(0.1, 0.7, 1.0, 0.1);
-        // transition-timing-function: cubic-bezier(.12,.84,.74,1.03);
 
         border-color: $highlight;
 
@@ -237,4 +235,10 @@ ul {
   left: 90%;
   bottom: 5%;
   display: block;
+}
+
+@media only screen and (max-width: 800px) {
+  p {
+    font-size: 0.5em;
+  }
 }
